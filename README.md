@@ -162,7 +162,7 @@ The key insight: **writing style leaves a fingerprint**. AI text tends to use lo
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Acmeh1/NCM_data.git
+git clone https://github.com/Acmeh1/AI-vs-Human-Essay-Analysis.git
 cd NCM_data
 
 # 2. Install dependencies
