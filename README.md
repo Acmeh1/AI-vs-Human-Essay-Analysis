@@ -96,7 +96,7 @@ The key insight: **writing style leaves a fingerprint**. AI text tends to use lo
 
 ### Step 2 — Feature Engineering
 
-![Comparison](plot/step2_comparison.png)
+![Comparison](plots/step1_distribution.png)
 ![Box Plots](plot/step2_boxplots.png)
 ![Distributions](plot/step2_distributions.png)
 
