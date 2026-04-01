@@ -92,32 +92,32 @@ The key insight: **writing style leaves a fingerprint**. AI text tends to use lo
 
 ### Step 1 — Class Distribution
 
-![Distribution](plot/step1_distribution.png)
+![Distribution](plots/step1_distribution.png)
 
 ### Step 2 — Feature Engineering
 
 ![Comparison](plots/step1_distribution.png)
-![Box Plots](plot/step2_boxplots.png)
-![Distributions](plot/step2_distributions.png)
+![Box Plots](plots/step2_boxplots.png)
+![Distributions](plots/step2_distributions.png)
 
 ### Step 3 — Readability & Correlation
 
-![Readability](plot/step3_readability.png)
-![Correlation](plot/step3_correlation.png)
+![Readability](plots/step3_readability.png)
+![Correlation](plots/step3_correlation.png)
 
 > **Top positive correlators with AI:** `long_word_ratio` (+0.58), `avg_word_length` (+0.57), `coleman_liau` (+0.54)
 > **Top negative correlators:** `flesch_reading_ease` (−0.48), `word_count` (−0.33)
 
 ### Step 4 — Vocabulary Analysis
 
-![Top Words](plot/step4_top_words.png)
+![Top Words](plots/step4_top_words.png)
 
 > Human essays favor casual words: *"just", "think", "car"*
 > AI essays favor formal words: *"electoral", "important", "states", "usage"*
 
 ### Step 5 — Statistical Significance
 
-![Significant Features](plot/step5_significant_features.png)
+![Significant Features](plots/step5_significant_features.png)
 
 | Feature | Cohen's d | Effect Size |
 |---------|-----------|-------------|
@@ -130,9 +130,9 @@ The key insight: **writing style leaves a fingerprint**. AI text tends to use lo
 
 ### Step 6 — ML Classification
 
-![ROC Curves](plot/step6_roc.png)
-![Confusion Matrices](plot/step6_confusion.png)
-![Feature Importance](plot/step6_feature_importance.png)
+![ROC Curves](plots/step6_roc.png)
+![Confusion Matrices](plots/step6_confusion.png)
+![Feature Importance](plots/step6_feature_importance.png)
 
 | Model | Accuracy | AUC |
 |-------|----------|-----|
